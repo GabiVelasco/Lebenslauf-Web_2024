@@ -65,7 +65,7 @@ h2 {
     color: #2477a3;
     border-bottom: 2px solid #2477a3;
     display: inline-block;
-    padding-bottom: 3px; /* Adjusted size */
+    padding-bottom: 2px; /* Adjusted size */
     margin-bottom: 10px; /* Adjusted size */
     font-weight: 300;
     font-size: 16px; /* Adjusted size */
@@ -243,8 +243,14 @@ a:hover {
 }
 
 h3, h2{
-    padding: 3px;
+    padding: 1px;
     margin: 0 auto;
+    
+}
+
+.maintopic{
+    margin: 7px auto;
+    
 }
 
 .description p, .hobbies ul {
