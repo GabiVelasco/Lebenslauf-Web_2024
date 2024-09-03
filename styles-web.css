@@ -40,7 +40,8 @@ body {
 
 h1 {
     color: #fff;
-    font-weight: 300;
+    font-weight: lighter;
+    letter-spacing: 3px;
     margin: 5px 0;
     font-size: 20px; /* Adjusted size */
 }
@@ -52,13 +53,26 @@ h1 {
 }
 
 .contact-info {
-    font-size: 10px; /* Adjusted size */
-    margin-top: 5px;
+    font-size: 12px; /* Adjusted size */
+    margin: 0 auto;
+    padding: 5px;
+
+ 
 }
+
 
 .contact-info a {
     color: #fff;
     text-decoration: underline;
+    font-size: 12px; /* Adjusted size */
+}
+
+.flex, .flex a {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    text-decoration:none;
+    font-size: 12px;
 }
 
 h2 {
@@ -72,7 +86,7 @@ h2 {
 }
 
 .section {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .columns {
@@ -135,7 +149,7 @@ h2 {
 }
 
 .timeline-item {
-    margin-bottom: 15px; /* Adjusted size */
+    margin-bottom: 10px; /* Adjusted size */
     position: relative;
     padding-left: 120px; /* Adjusted size */
 }
@@ -207,11 +221,11 @@ a:hover {
 }
 
 .hobbies {
-    margin-top: 10px; /* Adjusted size */
+    margin-top: 0px; /* Adjusted size */
 }
 
 .hobbies ul {
-    padding-left: 15px; /* Adjusted padding */
+    padding-left: 10px; /* Adjusted padding */
 }
 
 /* Print styles */
@@ -249,7 +263,7 @@ h3, h2{
 }
 
 .maintopic{
-    margin: 7px auto;
+    margin: 10px auto;
     
 }
 
