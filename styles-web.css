@@ -271,3 +271,9 @@ h3, h2{
     margin-top: 1px;
 }
 
+@media screen and (max-width: 768px){ 
+    .flex, .contact-info, .contact-info a {
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+    } }
