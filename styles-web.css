@@ -110,6 +110,7 @@ h2 {
     display: flex;
     justify-content: flex-end; /* Aligns content to the right */
     margin: auto;
+    font-family: 'Noto Color Emoji', sans-serif;
 }
 
 .description, .sprachen {
