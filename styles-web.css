@@ -55,9 +55,19 @@ h1 {
 .contact-info {
     font-size: 12px; /* Adjusted size */
     margin: 0 auto;
-    padding: 5px;
+    padding: 5px ;
+    left: 0;
 
  
+}
+
+.img-contact-info {
+    margin: 0 auto;
+    padding-left: 65px ;
+    right: 0;
+    left: 5px;
+    width:25px;
+
 }
 
 
@@ -65,6 +75,15 @@ h1 {
     color: #fff;
     text-decoration: underline;
     font-size: 12px; /* Adjusted size */
+}
+
+.contact-info p {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px; /* Adjusted size */
+    margin: 0 auto;
+    padding: 0 ;
+    right: 0;
 }
 
 .flex, .flex a {
