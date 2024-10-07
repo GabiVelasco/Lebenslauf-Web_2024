@@ -299,3 +299,10 @@ h3, h2{
         margin: 0 auto;
         justify-content: center;
     } }
+
+    .ue-bürgerin {
+        color:  #2477a3;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'Noto Color Emoji', sans-serif !important;
+    }
